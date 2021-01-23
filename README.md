@@ -1,5 +1,8 @@
 # How to build
 
+### This is a modified version, src has been updated to 0.4.6, factorio version downgraded to 1.0 and some angels items have been added
+This is pretty annoying to build, mkimages doesn't handle the multiple pyalienlife files, i recommend merging them in one zip and correct image names not matching item names when mkimages run
+
 - Download Pyanodons mods to extract and generate the stacked item images. Make sure to download
   both, the mod itself as well as the corresponding image pack.
 	Latest known working Versions (mod / imagepack):

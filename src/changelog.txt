@@ -1,8 +1,241 @@
 ---------------------------------------------------------------------------------------------------
-Version: 0.2.1
-Date: 2020-02-15
+Version: 0.4.6
+Date: 2021-01-09
+  fixes:
+    - fixed lard (mukmuox-fat) and organics (organic-matter) when py alien mod is not active
+  Added stacking for:
+    - activated carbon (by request)
+    - zinc chloride (by request)
+---------------------------------------------------------------------------------------------------
+Version: 0.4.5
+Date: 2020-12-05
+  fixes:
+    - fixed guar stacking, thanks to nagapito
+  changes:
+    - guar is now a module when py alien life is used, thanks to nagapito
+---------------------------------------------------------------------------------------------------
+Version: 0.4.4
+Date: 2020-11-29
+  changes:
+    - updated to factorio version 1.1 by request
+---------------------------------------------------------------------------------------------------
+Version: 0.4.3
+Date: 2020-11-08
+  changes:
+    - moved salt to stage 1
+---------------------------------------------------------------------------------------------------
+Version: 0.4.1
+Date: 2020-10-17
+  Added stacking for:
+    - immunosuppressants
+    - pineal gland
+    - magnetic beads
+    - calmodulin-binding mutant peptide (cbp)
+    - primers
+    - sugar
+    - bioscaffold
+    - venon gland
+    - alien enzymes
+    - pheromones
+    - growth factor (gh)
+    - antivirals
+---------------------------------------------------------------------------------------------------
+Version: 0.4.0
+Date: 2020-10-11
+  Added stacking for:
+    - yaedols spores
+    - yaedols mk 01
+    - myoglobin
+    - paramagnetic material
+    - arthurian egg
+    - microcin j25
+    - chimeric proteins
+    - cytostatics
+    - purine analogues
+    - dingrit spike
+    - equipment chassis
+    - laboratory instrument
+    - propeptides
+    - pacifastin
+---------------------------------------------------------------------------------------------------
+Version: 0.3.9
+Date: 2020-10-04
+  changes:
+    - updated stacked icons for processing unit and soil
+    - updated factorio version to 1.0.
+---------------------------------------------------------------------------------------------------
+Version: 0.3.8
+Date: 2020-09-26
+  Bugfixes:
+    - script in Util that process the final fixes is ignoring the iconSize property
+    - change the fertilizer items to process only on final fixes
+    - set to some stacking items inFinalFixes to true (all thanks to nagapito)
+---------------------------------------------------------------------------------------------------
+Version: 0.3.7
+Date: 2020-09-19
+  Added stacking for:
+    - all the food and chum
+---------------------------------------------------------------------------------------------------
+Version: 0.3.6
+Date: 2020-09-09
+  Fixes:
+    - fixed stacked icon for ralesia mk1
+---------------------------------------------------------------------------------------------------
+Version: 0.3.5
+Date: 2020-09-06
+  Added stacking for:
+    - guar
+    - guar gum
+    - fertilizer
+    - sap seed
+    - yotoi seed
+    - tuuphra seed
+    - rennea seed
+    - grod seed
+    - cridren seed
+    - kicalk seed
+    - cadaveric arum seed
+    - tree seedling
+    - partially digested rennea seed
+    - abraded rennea seed mk02
+    - seed extract 01
+---------------------------------------------------------------------------------------------------
+Version: 0.3.4
+Date: 2020-08-23
+  Added stacking for:
+    - all caged animals
   Changes:
-    - added crushed oil sand (by request) for testing new version off our mod
+    - moved low grade rejects from stage 3 to stage 2
+---------------------------------------------------------------------------------------------------
+Version: 0.3.3
+Date: 2020-08-02
+  Added stacking for:
+    - mosfet
+    - NiSi
+    - SIC
+    - green SIC
+    - cobalt fluoride
+    - cobalt sulfate
+    - cobalt sulfate 02
+    - meat
+    - dried meat
+    - lard
+    - brain
+    - guts
+---------------------------------------------------------------------------------------------------
+Version: 0.3.2
+Date: 2020-07-27
+  Changes:
+    - moved molybdenum ore from stage 3 to stage 2
+    - replaced stacked icons for transistor and biomass (due to new icons)
+---------------------------------------------------------------------------------------------------
+Version: 0.3.1
+Date: 2020-07-25
+  Added Stacking for:
+    - filtration media
+    - fiber
+    - microfiber
+    - molybdenum disulfide (MoS2)
+    - molybdenum trioxide (MoO3)
+    - molybdenite powder (all by request)
+---------------------------------------------------------------------------------------------------
+Version: 0.3.0
+Date: 2020-07-21
+  Added Stacking for:
+    - tin-chromium alloy
+    - warm stone brick
+    - warmer stone brick
+    - hot stone brick (all by request)
+---------------------------------------------------------------------------------------------------
+Version: 0.2.9
+Date: 2020-07-19
+  Added Stacking for:
+    - wood seeds
+    - moondrop seeds
+    - fungal substrate
+    - improved fungal substrate
+    - special fungal substrate
+    - casein
+    - lignin
+    - phadai carapace
+    - chitin
+    - cobalt extract
+    - super crystalline structure
+    - cobalt oxide
+    - neuromorphic chip
+    - metallic glass
+---------------------------------------------------------------------------------------------------
+Version: 0.2.8
+Date: 2020-06-28
+  Bugfixes:
+    - crating for Pyanodons mods should now be enabled when Crating Machine is researched
+    - some coding fixes (thanks to billbo99) advice you should do a tech reset  /c game.player.force.reset_technology_effects()
+---------------------------------------------------------------------------------------------------
+Version: 0.2.7
+Date: 2020-06-28
+  Changes:
+    - re added all optional dependencies due to moss and seaweed being removed from stacking
+---------------------------------------------------------------------------------------------------
+Version: 0.2.6
+Date: 2020-06-27
+  Changes:
+    - removed all optional dependencies from the list (they all are still working) suggested by Kingarthur
+---------------------------------------------------------------------------------------------------
+Version: 0.2.5
+Date: 2020-06-21
+  Changes:
+    - re added mod support for Deadlock Crating Machine (from shanemadden) (by request)
+  Added Stacking for:
+    - seaweed
+  Known Bugs:
+    - crating for Pyanodons mods can be active before researching the Crating Machine
+  Bugfixes:
+    - since seaweed and moss are modules i needed to redo some coding in the mod (thanks to billbo99)
+---------------------------------------------------------------------------------------------------
+Version: 0.2.4
+Date: 2020-06-17
+  Bugfixes:
+    - fixed bug when stacking biomass becomes stacked organic matter
+    - organic matter no longer required with Py Alien Life mod installed
+---------------------------------------------------------------------------------------------------
+Version: 0.2.3
+Date: 2020-06-14
+  Changes:
+    - added for stacking:
+    - empty comb
+    - saps
+    - moss gene sample
+    - biosample
+    - cDNA
+    - plasmids
+    - retrovirus
+    - sodium alginate
+    - petri dish
+    - incubated petri dish
+    - vrauk cocoon
+---------------------------------------------------------------------------------------------------
+Version: 0.2.2
+Date: 2020-06-07
+  Changes:
+    - added for stacking:
+    - biomass (by request)
+    - agar
+    - latex slab
+    - cellulose
+    - moss
+---------------------------------------------------------------------------------------------------
+Version: 0.2.1
+Date: 2020-06-06
+  Changes:
+    - added for stacking: (some by request)
+    - crushed oil sand
+    - carbon black
+    - oil sand
+    - coarse coal
+    - crushed coal
+    - latex
+  Bugfixes:
+    - added a new script for creating stacked icons (a very special thanks to billbo99)
 ---------------------------------------------------------------------------------------------------
 Version: 0.2.0
 Date: 2020-02-15
