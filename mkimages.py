@@ -14,9 +14,9 @@ def mkIcon(src, dest):
   subprocess.run(["/mingw64/bin/convert.exe", "-size", "64x64", "canvas:transparent", "-background", "transparent",
        "-alpha", "on",
        "(",
-       src, "-resize", "26x26", "-repage", "+3+6",
-       "(", "+clone", "-repage", "+3+3", ")",
-       "(", "+clone", "-repage", "+3+0", ")",
+       src, "-resize", "52x52", "-repage", "+6+12",
+       "(", "+clone", "-repage", "+6+6", ")",
+       "(", "+clone", "-repage", "+6+0", ")",
        ")",
        "-flatten", "-unsharp", "0x6+0.1+0", "png32:{}".format(dest)])
 
