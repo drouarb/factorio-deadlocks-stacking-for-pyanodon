@@ -55,7 +55,7 @@ return {
     {item = "stone-wool", icon = nil, stage = 2},
     {item = "silicon", icon = nil, stage = 2},
     {item = "fiber", icon = nil, stage = 2, icon_size = 64},
-    {item = "micro-fiber", icon = nil, stage = 2, icon_size = 64},
+    {item = "micro-fiber", icon = nil, iconName = "microfiber", stage = 2, icon_size = 64},
     {item = "myoglobin", icon = nil, stage = 2, icon_size = 64},
     {item = "meat", icon = nil, stage = 2, icon_size = 64},
     {item = "crco-alloy", icon = nil, stage = 2, icon_size = 64},
