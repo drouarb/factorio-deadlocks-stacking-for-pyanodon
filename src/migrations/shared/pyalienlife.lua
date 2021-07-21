@@ -45,6 +45,8 @@ return {
     {item = "primers", icon = nil, stage = 1, icon_size = 64},
     {item = "bio-scafold", icon = nil, stage = 1, icon_size = 64},
     {item = "bio-container", icon = nil, stage = 1, icon_size = 64},
+    {item = "manure", icon = nil, iconName = "mip/manure-02", stage = 1, icon_size = 64},
+    {item = "moondrop", icon = nil, stage = 1, icon_size = 64, type = "module"},
     {item = "fungal-substrate-02", icon = nil, stage = 2, icon_size = 64},
     {item = "casein", icon = nil, stage = 2, icon_size = 64},
     {item = "lignin", icon = nil, stage = 2, icon_size = 64},

@@ -48,6 +48,11 @@ return {
     {item = "ti-residue", icon = nil, stage = 1},
     {item = "crushed-coal", icon = nil, stage = 1, icon_size = 64},
     {item = "salt", icon = nil, stage = 1},
+    {item = "fuelrod-mk02", icon = nil, iconName = "fuel-rod-mk02", stage = 1, icon_size = 64},
+    {item = "powdered-ralesia-seeds", icon = nil, stage = 1, icon_size = 64},
+    {item = "sodium-bisulfate", icon = nil, stage = 1, icon_size = 64},
+    {item = "sodium-carbonate", icon = nil, stage = 1, icon_size = 64},
+    {item = "sodium-sulfate", icon = nil, stage = 1, icon_size = 64},
     {item = "grade-3-lead", icon = nil, stage = 2},
     {item = "grade-4-lead", icon = nil, stage = 2},
     {item = "grade-2-nickel", icon = nil, stage = 2},
@@ -87,6 +92,8 @@ return {
     {item = "tin-dust", icon = nil, stage = 2},
     {item = "coarse-coal", icon = nil, stage = 2, icon_size = 64},
     {item = "low-grade-rejects", icon = nil, iconName = "low-grade-copper-rejects", stage = 2},
+    {item = "fuelrod-mk03", icon = nil, iconName = "fuel-rod-mk03", stage = 2, icon_size = 64},
+    {item = "starch", icon = nil, stage = 2, icon_size = 64},
     {item = "high-tin-mix", icon = nil, stage = 3},
     {item = "high-tin-concentrate", icon = nil, stage = 3},
     {item = "powdered-tin", icon = nil, stage = 3},
@@ -155,5 +162,7 @@ return {
     {item = "gold-plate", icon = nil, stage = 3},
     {item = "gold-precipitate", icon = nil, stage = 3},
     {item = "gold-precipitate-2", icon = nil, stage = 3},
-    {item = "purified-gold", icon = nil, stage = 3}
+    {item = "purified-gold", icon = nil, stage = 3},
+    {item = "fuelrod-mk04", icon = nil, iconName = "fuel-rod-mk04", stage = 3, icon_size = 64},
+    {item = "fuelrod-mk05", icon = nil, iconName = "fuel-rod-mk05", stage = 3, icon_size = 64}
 }

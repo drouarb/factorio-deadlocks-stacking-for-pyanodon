@@ -35,6 +35,12 @@ return {
     {item = "mukmoux-fat", icon = nil, stage = 1, icon_size = 64, inFinalFixes = true},
     {item = "zinc-chloride", icon = nil, stage = 1, icon_size = 64},
     {item = "organics", icon = nil, stage = 1, icon_size = 64, inFinalFixes = true},
+    {item = "biofilm", icon = nil, stage = 1, icon_size = 64},
+    {item = "alien-sample01", icon = nil, stage = 1, icon_size = 64},
+    {item = "bio-sample01", icon = nil, stage = 1, icon_size = 64},
+    {item = "log", icon = nil, stage = 1, icon_size = 64},
+    {item = "copper-coating", icon = nil, stage = 2, icon_size = 64},
+    {item = "kevlar-coating", icon = nil, stage = 2, icon_size = 64},
     {item = "kevlar", icon = nil, stage = 2, icon_size = 64},
     {item = "nbfe-alloy", icon = nil, stage = 2, icon_size = 64},
     {item = "nichrome", icon = nil, stage = 2, icon_size = 64},
@@ -47,5 +53,6 @@ return {
     {item = "optical-fiber", icon = nil, stage = 2, icon_size = 64},
     {item = "filtration-media", icon = nil, stage = 2, icon_size = 64},
     {item = "drill-head", icon = nil, stage = 2, icon_size = 64},
+    {item = "coal-briquette", icon = nil, stage = 2, icon_size = 64},
     {item = "fuelrod-mk01", icon = nil, stage = 3, icon_size = 64}
 }

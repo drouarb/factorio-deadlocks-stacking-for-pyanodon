@@ -53,5 +53,6 @@ return {
     {item = "sc-unit", icon = nil, iconName = "magnetic-unit", stage = 3},
     {item = "crude-diamond", icon = nil, stage = 3},
     {item = "diamond", icon = nil, stage = 3},
-    {item = "washed-diamond", icon = nil, stage = 3}
+    {item = "washed-diamond", icon = nil, stage = 3},
+    {item = "science-coating", icon = nil, stage = 3, icon_size = 64}
 }

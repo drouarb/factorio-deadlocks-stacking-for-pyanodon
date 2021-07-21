@@ -13,6 +13,7 @@ return {
     {item = "resistor1", icon = nil, stage = 1},
     {item = "valve", icon = nil, stage = 1},
     {item = "electronic-circuit", icon = nil, iconName = "circuit-board-1", inFinalFixes = true, stage = 1},
+    {item = "formica", icon = nil, stage = 1, icon_size = 64},
     {item = "advanced-circuit", icon = nil, iconName = "circuit-board-2", inFinalFixes = true, stage = 2},
     {item = "resistor2", icon = nil, stage = 2},
     {item = "inductor2", icon = nil, stage = 2},
